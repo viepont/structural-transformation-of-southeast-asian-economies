@@ -1,4 +1,11 @@
-.Rproj.user
+# macOS
+.DS_Store
+
+# R specific
 .Rhistory
 .RData
 .Ruserdata
+
+# renv specific
+renv/library/
+renv/staging/

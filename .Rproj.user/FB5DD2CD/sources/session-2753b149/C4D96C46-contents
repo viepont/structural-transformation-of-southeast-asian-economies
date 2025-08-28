@@ -1,0 +1,38 @@
+---
+title: "adb_key_indicators"
+author: "Vincent Pontines"
+date: "2025-08-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(here)
+source(here("templates/import_helper.R"))
+source(here("templates/summary_helper.R"))
+```
+
+
+# Load dataset
+```{r}
+# Load here if you want project-relative paths
+# library(here)
+
+# Full path relative to project root
+file_path <- here("data", "raw", "adb_key_indicators", 
+                  "KIDB-export-7114db13-e5a3-4a5d-99ea-3deb0a4a8e31.csv")
+
+# Import the CSV
+df <- import_csv(file_path)
+
+# Check the first few rows
+glimpse(df)
+dt
+```
+
+# Summary statistics
+```{r}
+library(here)
+str(df)
+
+summarize_numeric(df)
+```
