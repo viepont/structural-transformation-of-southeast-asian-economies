@@ -1,0 +1,38 @@
+# Install the necessary packages
+install.packages(tidyverse)
+install.packages(readxl)
+install.packages(janitor)
+
+# Load libraries
+library(tidyverse)
+library(readxl)
+library(janitor)
+
+# Ensure renv is available
+if (!requireNamespace("renv", quietly = TRUE)) {
+  install.packages("renv")
+}
+
+# Initialize renv for the project if not already set up
+if (!file.exists("renv.lock")) {
+  message("Initializing renv project...")
+  renv::init(bare = TRUE)  # bare = TRUE means start empty, add packages as you go
+} else {
+  message("Restoring packages from renv.lock...")
+  renv::restore()
+}
+
+# Example: automatically install & record packages you know you’ll need
+packages <- c("tidyverse", "DT", "readxl", "janitor", "here")  
+
+for (pkg in base_packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    install.packages(pkg)
+  }
+  library(pkg, character.only = TRUE)
+  renv::snapshot(packages = pkg, prompt = FALSE) # record in renv.lock
+}
+
+message("Environment setup complete ✅")
+
+
