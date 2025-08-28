@@ -3,7 +3,7 @@
 ## Overview
 This research project investigates whether the middle income trap represents a structural bottleneck for economic growth in ASEAN economies. Our analysis includes indicators concerning various economic, environmental, social, and governance factors that may constrain countries' transition from middle to high-income status. 
 
-## How do I 
+## How to Use
 1. **First time (or new machine)** → run `source("init_environment.R")`.  
 2. Run scripts from `experiments/processing`, `experiments/analysis`,
 3. View the following results.
