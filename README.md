@@ -1,24 +1,13 @@
 # Structural Transformation of Southeast Asian Economies
 
 ## Overview
-This repository sets out the skeleton of an organizational structure used for scientific research. It loosely follows what I have used for several of my research projects and I hope it inspires you to conduct your research in an open, reproducible, and honest manner.
+This research project investigates whether the middle income trap represents a structural bottleneck for economic growth in ASEAN economies. Our analysis includes indicators concerning various economic, environmental, social, and governance factors that may constrain countries' transition from middle to high-income status. 
 
 ## How to Use
-To use this template for your research, fork this repository, change the name
-to something descriptive for your project, and adjust the licensing as you
-see fit.
+1. **First time (or new machine)** → run `source("init_environment.R")`.  
+2. Run scripts from `experiments/processing`, `experiments/analysis`,
+3. View the following results.
 
-To use this repository for your own research, simply click "Use this template" 
-at the top of this page
-
-> :warning: :warning: :warning: I wouldn't advise forking this repository. As you can only fork a given repository once, there is little utility in forking this repo if you hope to use it again in your future projects :warning: :warning: :warning:
-
-Alternatively, you can clone the repository and restructure as necessary. Via 
-the command line,
-
-```
-> git clone git@github.com:gchure/reproducible_research
-```
 ## Layout
 
 The repository is split into seven main directories, many of which have subdirectories. This structure has been designed to be easily navigable by humans and computers alike, allowing for rapid location of specific files and instructions. Within each directory is a `README.md` file which summarizes the purpose of that directory as well as some examples where necessary. This structure may not be perfect for your intended us and may need to be modified. Each section is briefly described below. 
@@ -57,20 +46,4 @@ There are some files which I consider to be mandatory for any project.
 
 # License Information
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="github.com/gchure/reproducible_research">
-    <span property="dct:title">Griffin Chure</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">A template for using git as a platform for reproducible scientific research</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="US" about="github.com/gchure/reproducible_research">
-  United States</span>.
-</p>
+
