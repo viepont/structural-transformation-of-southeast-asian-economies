@@ -10,12 +10,9 @@ library(janitor)
 
 import_csv <- function(file_path) {
   df <- read.csv(file_path, header = TRUE, sep = ",")
-  
-  # Clean column names
   df <- janitor::clean_names(df)
-  
-  # Handle missing values
   df <- df %>% drop_na()
   
   return(df)
 }
+
