@@ -5,8 +5,8 @@ This research project investigates whether the middle income trap represents a s
 
 ## How to Use
 1. **First time (or new machine)** → run `source("init_environment.R")`.  
-2. Run scripts from `experiments/processing`, `experiments/analysis`,
-3. View the following results.
+2. **Run scripts** from `experiments/processing`, `experiments/analysis`,
+3. **View** the following results.
 
 ## Layout
 
