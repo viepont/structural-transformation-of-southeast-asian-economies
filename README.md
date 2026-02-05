@@ -1,7 +1,7 @@
 # Structural Transformation of Southeast Asian Economies
 
 ## Overview
-This research project investigates whether the middle income trap represents a structural bottleneck for economic growth in ASEAN economies. Our analysis includes indicators concerning various economic, environmental, social, and governance factors that may constrain countries' transition from middle to high-income status. 
+This project investigates whether the middle income trap represents a structural bottleneck for economic growth in ASEAN economies. Our analysis includes indicators concerning various economic, environmental, social, and governance factors that may constrain countries' transition from middle to high-income status. 
 
 ## How to Use
 This repository is an R project managed with `renv` for a reproducible environment.
