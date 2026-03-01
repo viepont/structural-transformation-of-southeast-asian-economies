@@ -44,6 +44,4 @@ for (pkg in base_packages) {
   renv::snapshot(packages = pkg, prompt = FALSE) # record in renv.lock
 }
 
-message("Environment setup complete ✅")
-
 

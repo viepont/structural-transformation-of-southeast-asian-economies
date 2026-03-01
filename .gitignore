@@ -9,3 +9,4 @@
 # renv specific
 renv/library/
 renv/staging/
+.Rproj.user
